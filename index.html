@@ -7,7 +7,19 @@
     <style>
         body {
             text-align: center;
+            font-family: sans-serif;
         }
+        .music-box {
+            margin-top: 30px;
+	}
+	.music-info {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+	}
+	.bottom-image {
+            margin-top: 40px;
+	}
     </style>
 </head>
 <body>
@@ -44,8 +56,26 @@
         </div>
     
     </section>
-    <div class="bottom-image" style="margin-top: 40px;">
+    <div class="bottom-image">
         <img src="p5.js 과제/하단이미지.png" alt="하단 이미지">
+    </div>
+    
+    <div class="music-box">
+        <h2>🎵 배경 음악</h2>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/N_pvw8pHD6o?autoplay=1&loop=1" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+
+        <div class="music-info">
+            🎵 음악: <strong>Our Tales</strong> – Stellive  
+            <br>(YouTube 공식 영상 임베드)
+        </div>
     </div>
 </body>
 
